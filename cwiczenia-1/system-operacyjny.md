@@ -6,8 +6,8 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | centos 7 |
-| program (parametry sieci)      | niewiem |  |
+| nazwa      | Centos | centos 7 |
+| program (parametry sieci)      | nmcli | Wykorzystane sudo nmcli enp0s3, aby połączyć maszynę z siecią  |
 
 
 Konfiguracja połączenia sieciowego
@@ -15,11 +15,11 @@ Konfiguracja połączenia sieciowego
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
-| Maska podsieci      |  |  |
-| Brama      |  |  |
-| DNS 1      |  |  |
-| DNS 2      |  |  |
+| Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
+| Maska podsieci      | 10.0.2.15/24 |  |
+| Brama      | 10.0.2.0 |  |
+| DNS 1      | 10.10.0.8  |  |
+| DNS 2      | 10.10.0.4 |  |
 
 Schemat sieci
 -------------
