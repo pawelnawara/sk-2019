@@ -12,22 +12,20 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | | |
-| MASKA  | | |
+| 10.0.2.15 | | |
+| 10.0.2.15/24  | | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | | |
-| MASKA  | | |
+| 10.0.2.4  | | |
+| 10.0.2.4/24  | | |
 
 Weryfikacja połączenia
 
 Polecenie
-```
-```
+ping 10.0.2.4
 
 Efekt
-```
-```
+64 bytes from 10.0.2.4: icmp_seq ttl=64 time=0.415 ms
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
